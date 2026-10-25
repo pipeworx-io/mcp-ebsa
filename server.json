@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ebsa",
   "title": "Ebsa",
   "description": "EBSA enforcement — civil-penalty actions on ERISA benefit-plan filings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ebsa",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ebsa",

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ebsa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EBSA enforcement — civil-penalty actions on ERISA benefit-plan filings",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3f3608fc3dbfe70794eded2ad418defb65903bd3e4e1b11da9c922c3cc551496",
-    "sourceCommit": "514e3efb42b8d81082c07e01d3ae7654bbf91f52"
+    "sourceHash": "v1-013a7a5d3de956ceb9aa9652331447a6a453b301fb17686ce7f0d435dbd861fc",
+    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
   }
 }

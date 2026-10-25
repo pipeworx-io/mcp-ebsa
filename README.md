@@ -9,7 +9,7 @@ sponsors who filed deficiently, late, or not at all — distinct from
 `dol-whd` (Wage & Hour back-wage/overtime cases) and `osha` (safety
 citations), both of which already live on this same DOL API gateway.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1831+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1878+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 This is a civil-**penalty** / filing-compliance enforcement record, **not**
 a fiduciary-breach litigation docket — EBSA does not publish a bulk dataset
@@ -141,7 +141,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1831+ data sources. The
+Both URLs reach the same gateway and the same 1878+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
