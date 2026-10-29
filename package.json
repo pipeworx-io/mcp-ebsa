@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ebsa",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "EBSA enforcement — civil-penalty actions on ERISA benefit-plan filings",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ebsa": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ebsa"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ebsa.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ebsa",
   "pipeworx": {
-    "sourceHash": "v1-013a7a5d3de956ceb9aa9652331447a6a453b301fb17686ce7f0d435dbd861fc",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "ebsa",
+    "gatewaySlug": "ebsa",
+    "sourceHash": "v1-4ac32f21db152cf9ee0e51e246f77b54620b23fedbd2ecc1c1fe5c078c649b3b",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
